@@ -1,0 +1,6 @@
+genome Ajamaicensis_v1
+trackDb data/Ajamaicensis_trackDb.txt
+organism Jamaican Fruit Bat
+description Ajamaicensis_v1
+twoBitPath data/final_genome_annot/Ajamaicensis/Ajamaicensis.2bit
+defaultPos contig_2235:1-10000

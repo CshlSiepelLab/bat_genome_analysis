@@ -1,0 +1,2 @@
+name 	start	end	strand	gene_type
+Ifitm7_NC_000082_7	13799566	13804731	1	exons

@@ -1,0 +1,11 @@
+name	start	end	strand	gene_type
+scaffold_537__IFITM10	854397	862032	1	exons
+scaffold_537__IFITM1-like	1641509	1643678	-1	exons
+scaffold_537__IFITM1-like	1644173	1649899	-1	exons
+scaffold_537__IFITM1-like	1672033	1672890	1	exons
+scaffold_537__IFITM1-like	1674700	1675571	1	exons
+scaffold_537__IFITM1-like	1679536	1680422	1	exons
+scaffold_537__IFITM1-like	1684927	1684461	-1	exons
+scaffold_537__IFITM1-like	1706156	1707047	1	exons
+scaffold_537__IFITM1-like	1710369	1709896	-1	exons
+scaffold_537__IFITM5-like	1727237	1728051	1	exons

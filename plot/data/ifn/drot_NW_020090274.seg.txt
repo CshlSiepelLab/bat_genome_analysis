@@ -1,0 +1,2 @@
+me 	start	end	strand	gene_type
+IFNB	356	919	1	exons

@@ -1,0 +1,2 @@
+name 	start	end	strand	gene_type
+NW_023416313.1__LOC118676325	180469352	180469717	1	exons

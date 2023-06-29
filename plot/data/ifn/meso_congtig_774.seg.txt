@@ -1,0 +1,5 @@
+name 	start	end	strand	gene_type
+IFNO2	280	498	-1	exons
+IFNO2	16694	17344	-1	exons
+IFNO2	22582	23232	1	exons
+IFNO2	39423	39638	1	exons

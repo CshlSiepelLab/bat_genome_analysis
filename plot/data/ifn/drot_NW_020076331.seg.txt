@@ -1,0 +1,2 @@
+name 	start	end	strand	gene_type
+IFNA	4	351	-1	exons

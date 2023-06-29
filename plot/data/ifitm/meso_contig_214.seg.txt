@@ -1,0 +1,2 @@
+name	start	end	strand	gene_type
+contig_214__IFITM10	555870	566248	-1	exons

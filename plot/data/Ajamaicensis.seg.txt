@@ -1,0 +1,13 @@
+name	start	end	strand	gene_type
+IFNB__evm.model.scaffold_1964.495__jam	942	1502	-1	exons
+IFNA__evm.model.scaffold_1964.496__jam	47290	47877	-1	exons
+KLHL9	60984	59134	1	exons
+IFNO_ajam-rna-XM_037145959.1.4722__jam	104498	104986	1	exons
+IFNA__ajam-rna-XM_037158313.1.5711__jam	125765	126265	1	exons
+IFNO_evm.model.scaffold_1964.499__jam	131475	131963	-1	exons
+IFNO__evm.model.scaffold_1964.501__jam	164837	165325	1	exons
+IFNA__evm.model.scaffold_1964.502__jam	179600	180163	1	exons
+IFNO__evm.model.scaffold_1964.503__jam	193303	193791	-1	exons
+IFNO_evm.model.scaffold_1964.499__jam	211139	211246	1	exons
+IFNA__evm.model.scaffold_1964.506__jam	235780	236346	1	exons
+IFNE__XP_006098181.1__myluc	256449	256892	-1	exons

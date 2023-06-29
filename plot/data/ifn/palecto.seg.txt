@@ -1,0 +1,12 @@
+name	start	end	strand	gene_type
+IFN-β	1	2358	-	exons
+IFN-ω1	21678	22238	1	exons
+IFN-α2	67866	68435	-	exons
+KLHL9	82273	84126	-	exons
+IFN-ω2	122948	123250	1	exons
+IFN-ω3	171573	172130	1	exons
+IFN-α3	183390	183959	1	exons
+IFN-ω4	200209	200766	1	exons
+IFN-α1	215571	216140	1	exons
+IFN-ω5	225670	226128	1	exons
+IFN-ε	247308	247889	-	exons

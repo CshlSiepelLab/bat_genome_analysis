@@ -1,0 +1,2 @@
+name 	start	end	strand	gene_type
+NW_023425597_IFITM10	152212	160139	1	exons

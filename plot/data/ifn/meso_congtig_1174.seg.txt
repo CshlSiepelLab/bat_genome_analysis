@@ -1,0 +1,2 @@
+name 	start	end	strand	gene_type
+IFNE	151109	151692	1	exons

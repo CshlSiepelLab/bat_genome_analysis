@@ -1,0 +1,5 @@
+hub Ajamaicensis
+shortLabel Ajamaicensis	 
+longLabel Jamaican Fruit Bat (Ajamaicensis_v1) Assembly
+genomesFile Ajamaicensis_genomes.txt
+email scheben@cshl.edu

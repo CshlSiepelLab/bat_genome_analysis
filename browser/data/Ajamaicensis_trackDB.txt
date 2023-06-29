@@ -1,0 +1,100 @@
+track Ajamaicensis_RNA_Cov
+longLabel  Bulk RNA coverage
+shortLabel RNA
+bigDataUrl final_genome_annot/Ajamaicensis/Ajamaicensis.rna.cov.bw
+type bigWig
+autoScale on
+priority 7
+color 0,255,0
+visibility full
+
+
+track Abinitio_Augustus
+longLabel Augustus de novo gene prediction
+shortLabel Augustus
+bigDataUrl final_genome_annot/Ajamaicensis/abinitio_genes/bb/Ajamaicensis_abinitio_genes_Augustus.bb
+type bigBed 9
+itemRgb On
+priority 5
+color 255,0,0
+visibility hide
+
+track Abinitio_GeMoMa
+longLabel GeMoMa gene projection from A. jamaicensis GCF_014825515
+shortLabel GeMoMa
+bigDataUrl final_genome_annot/Ajamaicensis/abinitio_genes/bb/Ajamaicensis_abinitio_genes_GeMoMa.bb
+type bigBed 9
+priority 3
+color 128,128,128
+itemRgb On
+visibility hide
+
+track Abinitio_GlimmerHMM
+longLabel Abinitio GlimmerHMM
+shortLabel Abinitio GlimmerHMM
+bigDataUrl final_genome_annot/Ajamaicensis/abinitio_genes/bb/Ajamaicensis_abinitio_genes_GlimmerHMM.bb
+type bigBed 9
+itemRgb On
+visibility hide
+
+track Abinitio_maker
+longLabel MAKER pipeline gene prediction
+shortLabel MAKER
+bigDataUrl final_genome_annot/Ajamaicensis/abinitio_genes/bb/Ajamaicensis_abinitio_genes_maker.bb
+type bigBed 9
+priority 4
+color 255,0,0
+itemRgb On
+visibility hide
+
+track Abinitio_transdecoder
+longLabel Transdecoder
+shortLabel Transdecoder
+bigDataUrl final_genome_annot/Ajamaicensis/abinitio_genes/bb/Ajamaicensis_abinitio_genes_transdecoder.bb
+type bigBed 9
+itemRgb On
+priority 6
+color 255,255,0
+visibility hide
+
+track Abinitio_repeatmasker
+longLabel Repetitive elements detected with RepeatMasker
+shortLabel RepeatMasker
+bigDataUrl final_genome_annot/Ajamaicensis/repeatmasker/Ajamaicensis_repeatmasker.bb
+type bigBed 3
+itemRgb On
+priority 9
+color 0,0,0
+visibility pack
+
+track MAF
+longLabel Multiple alignment of bats and mammal outgroups
+shortLabel MAF
+bigDataUrl final_genome_annot/Ajamaicensis/bat_jamref_bigMaf.bb
+speciesOrder Pmesoamericanus_v1 Pdiscolor Drotundus Mmyotis Rferrumequinum Human Mouse Pig
+type bigMaf
+priority 8
+color 0,0,255
+itemRgb On
+visibility full
+
+track Annotation
+longLabel EVM Final Annotation
+shortLabel Annotation
+bigDataUrl final_genome_annot/Ajamaicensis/annotation/Ajamaicensis_annotation.bb
+type bigBed 9
+itemRgb On
+priority 1
+color 0,0,255
+visibility pack
+
+track toga_genes
+longLabel TOGA gene projection from A. jamaicensis GCF_014825515
+shortLabel TOGA
+bigDataUrl final_genome_annot/Ajamaicensis/toga_genes/Ajamaicensis_toga_genes.bb
+type bigBed 9
+priority 2
+color 128,128,128
+itemRgb On
+visibility pack
+

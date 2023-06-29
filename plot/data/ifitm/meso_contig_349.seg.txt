@@ -1,0 +1,8 @@
+name	start	end	strand	gene_type
+contig_349__IFITM1-like	304576	305448	1	exons
+contig_349__IFITM1-like	309160	310068	-1	exons
+contig_349__IFITM1-like	312317	313231	-1	exons
+contig_349__IFITM1-like	328215	329133	1	exons
+contig_349__IFITM1-like	347096	347969	1	exons
+contig_349__IFITM1-like	350206	350952	1	exons
+contig_349__IFITM5	352808	353595	1	exons
