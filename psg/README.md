@@ -101,4 +101,11 @@ write.table(pvals,"bat_pvals_fdr.tsv",sep = ",",row.names = FALSE, quote = FALSE
 Gene onotology (GO) enrichment can be run on the positively selected genes, using the other tested genes as the background. GO annotations can be downloaded from [BioMart](http://useast.ensembl.org/info/data/biomart/index.html) using the R package BiomaRt for example. Given a list of selected genes and a table of all genes and their GO annotations, the below script with run a GO enrichment analysis using the R package topGO.
 ```
 scripts/topgo.R selected_genes.txt gene2go.txt
-``` 
+```
+
+## Dependencies
+
+* biopython
+* HYPHY
+* PAML
+* topGO
