@@ -2,7 +2,6 @@
 
 import sys
 from Bio import AlignIO
-#from Bio.Seq import Seq
 
 def main(align):
     clean = align[:,0:0]

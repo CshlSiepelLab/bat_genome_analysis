@@ -58,3 +58,7 @@ python get_indel_fasta.py alignment.maf deletions.bed
 ```
 
 To extract the indel-containing alignment block as a MAF file, the binary [mafsInRegion](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/) can be used.
+
+## Dependencies
+
+* biopython
