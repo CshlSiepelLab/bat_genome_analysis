@@ -4,7 +4,7 @@ This repository contains scripts, configuration files and key data for the setup
 
 * `browser`: generation of input data and configuration files for a custom UCSC bat genome browser 
 * `indel`: scripts and example files for calling short indels from a multiple alignment
-* `cafe`: scripts and data for gene family size expansion and contraction analysis with cafe
+* `cafe`: scripts and data for gene family size expansion and contraction analysis with CAFE5
 * `psg`: scripts for positive selection scans with PAML and HYPHY
 * `plot`: scripts and data for plotting in R
 
