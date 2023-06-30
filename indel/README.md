@@ -52,6 +52,7 @@ awk '$7>2 && $8>5 && $11>2 && $12==0 && $10==0' insertions.txt > insertions_filt
 ```
 
 A script can then be used to extract alignment blocks containing the indels for validation or further analysis. The indel can be converted to bed by extracting columsn 2,3, and 4. Note that this script will write one file per row in the bed file that can be found in the MAF input file.
+
 ```
 cut -f2-4 deletions_filt.txt > deletions.bed
 python get_indel_fasta.py alignment.maf deletions.bed
