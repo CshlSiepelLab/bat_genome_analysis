@@ -43,8 +43,9 @@ cafe5 -i data/Orthogroups.cafe.txt -t data/bat_tree.nwk -y data/bat_tree_lambda3
 ```
 
 ## Resources
-http://abacus.gene.ucl.ac.uk/software/MCMCtree.Tutorials.pdf
-https://github.com/hahnlab/CAFE5
+
+* http://abacus.gene.ucl.ac.uk/software/MCMCtree.Tutorials.pdf
+* https://github.com/hahnlab/CAFE5
 
 ## Dependencies
 
