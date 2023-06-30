@@ -1,7 +1,7 @@
 
 ## Calling insertions and deletions from a multiple alignment format (MAF) file 
 
-There are limited tools to detect insertions and deletions directly from a multiple alignment, rather than from aligned reads. After testing tools such as [smartsv2](https://github.com/EichlerLab/smrtsv2) and [syri](https://schneebergerlab.github.io/syri/) for possible adaption to this task, I decided to take a simpler approach that I hoped would be better at detecting small indels <~1000bp from highly accurate Cactus multiple alignments. The basic idea is to use a single genome as a reference coordinate system and then to find indels that occur in a specific group of species (bats) relative to this reference (human). I assumed that any bat-specific indel occuring in multiple bats that is supported by the absence of this indel in human, mouse and pig (abbreviated as hg, mm and sscrofa) is likely to be a true lineage-specific indel. I did model potential impacts of alignment error, and I necessarily split any indels that overlap multiple alignment blocks as indels are called indepently for each block.
+There are limited tools to detect insertions and deletions directly from a multiple alignment, rather than from aligned reads. After testing tools such as [smartsv2](https://github.com/EichlerLab/smrtsv2) and [syri](https://schneebergerlab.github.io/syri/) for possible adaption to this task, I decided to take a simpler approach that I hoped would be better at detecting small indels <~1000bp from highly accurate Cactus multiple alignments. The basic idea is to use a single genome as a reference coordinate system and then to find indels that occur in a specific group of species (bats) relative to this reference (human). I assumed that any bat-specific indel occuring in multiple bats that is supported by the absence of this indel in human, mouse and pig (abbreviated as hg, mm and sscrofa) is likely to be a true lineage-specific indel. I did not model potential impacts of alignment error, and I necessarily split any indels that overlap multiple alignment blocks as indels are called independently for each block.
 
 **Warning**: This custom script for calling lineage-specific small indels is not thoroughly benchmarked or tested. It is provided primarily for reproducibility of a custom analysis. I manually validated all indels discussed in the manuscript. Any users are cautioned to validate their results.  
 
@@ -9,7 +9,7 @@ To call deletions from a MAF file, we can use the following command on the provi
 ```
 # General usage relies on six fixed-order user arguments
 python call_indels_from_maf.py <alignment.maf> <coordinate_species> <alignment_reference> <ingroup species list>  <outgroup species list> <ins|del> > output
-# For example:
+# For example, to call deletions we set a bat ingroup and human/mouse/pig outgroup
 python call_indels_from_maf.py data/human_example.maf hg hg phydis,meso,jam,rhifer,drotund,mymy  hg,mm,sscrofa del > deletions.txt
 ```
 
@@ -51,14 +51,14 @@ Similarly, for the indels we can filter them like so.
 awk '$7>2 && $8>5 && $11>2 && $12==0 && $10==0' insertions.txt > insertions_filt.txt
 ```
 
-A script can then be used to extract alignment blocks containing the indels for validation or further analysis. The indel can be converted to bed by extracting columsn 2,3, and 4. Note that this script will write one file per row in the bed file that can be found in the MAF input file.
+A script can then be used to extract alignment blocks containing the indels for validation or further analysis. The indel output can be converted to bed format by extracting columns 2,3, and 4. Note that this script will write one file per row in the bed file that can be found in the MAF input file. So it may produce thousands of files!
 
 ```
 cut -f2-4 deletions_filt.txt > deletions.bed
 python get_indel_fasta.py alignment.maf deletions.bed
 ```
 
-To extract the indel-containing alignment block as a MAF file, the binary [mafsInRegion](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/) can be used.
+To extract the indel-containing alignment block as a MAF file, the UCSC binary [mafsInRegion](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/) can be used.
 
 ## Dependencies
 

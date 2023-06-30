@@ -52,3 +52,4 @@ cafe5 -i data/Orthogroups.cafe.txt -t data/bat_tree.nwk -y data/bat_tree_lambda3
 * PAML
 * CAFE5
 * biopython
+* trimal
