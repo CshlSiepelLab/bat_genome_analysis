@@ -14,4 +14,4 @@ Scheben, A. (2021), Supplement: Long-read sequencing reveals rapid evolution of 
 
 ## Citation
 
-Scheben A, Mendivil Ramos O, Kramer M, Goodwin S, Oppenheim S, Becker DJ, Schatz MC, Simmons NB, Siepel A, McCombie WR. Long-Read Sequencing Reveals Rapid Evolution of Immunity- and Cancer-Related Genes in Bats. *Genome Biol Evol.* 2023 Sep 4;15(9):evad148. doi: 10.1093/gbe/evad148. PMID: 37728212; PMCID: PMC10510315.
+Scheben A, Mendivil Ramos O, Kramer M, Goodwin S, Oppenheim S, Becker DJ, Schatz MC, Simmons NB, Siepel A, McCombie WR. Long-Read Sequencing Reveals Rapid Evolution of Immunity- and Cancer-Related Genes in Bats. *Genome Biol Evol.* 2023 Sep 4;15(9):evad148. doi: https://doi.org/10.1093/gbe/evad148. PMID: 37728212; PMCID: PMC10510315.
